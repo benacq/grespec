@@ -6,4 +6,17 @@
   body {
     @apply box-border text-black font-montserrat;
   }
+
+  nav {
+    @apply px-6 sm:px-16 md:px-24 lg:px-36 flex justify-between items-center
+    fixed top-0 w-full z-50 text-white;
+  }
+
+  h1 {
+    @apply text-2xl sm:text-left md:text-3xl lg:text-5xl font-dm-serif-display;
+  }
+
+  section.responsive {
+    @apply px-5 sm:px-16 lg:px-36;
+  }
 }

@@ -30,8 +30,14 @@ module.exports = {
 
     extend: {
 
+      colors: {
+        "custom-transparent": "rgba(0, 0, 0, 0.5)",
+      },
+
       fontSize: {
         'custom-xxlg': '60px',
+        'custom-xxlg-md': '50px',
+        'custom-xxlg-sm': '40px',
         'custom-xlg': '32px',
         'custom-lg': '28px',
         'custom-md': '22px',
@@ -41,6 +47,15 @@ module.exports = {
         'custom-xsm': '20px',
         'custom-xxsm': '16px',
         'custom-xxxsm': '10px'
+      },
+
+      fontFamily: {
+        'dm-serif-display': 'DM Serif Display',
+        'montserrat': 'Montserrat'
+      },
+
+      lineHeight: {
+        'hero-spaced': '110%'
       },
 
     },
