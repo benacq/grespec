@@ -28,7 +28,7 @@ function Nav({ cycleOpen, bgColor }) {
       className={
         bgColor
           ? bgColor
-          : `${!scrollNav ? "bg-custom-transparent-deeper" : " bg-green-gray"} `
+          : `${!scrollNav ? "bg-custom-transparent" : " bg-gray-900"} `
       }
     >
       <div className="relative my-4 h-10 w-20 md:h-16 md:w-40 ">

@@ -16,6 +16,14 @@
     @apply text-2xl sm:text-left md:text-3xl lg:text-5xl font-dm-serif-display;
   }
 
+  h2{
+    @apply text-xl sm:text-left md:text-2xl lg:text-custom-xlg font-dm-serif-display;
+  }
+
+  h3{
+    @apply text-xl sm:text-left md:text-2xl lg:text-custom-lg font-dm-serif-display;
+  }
+
   section.responsive {
     @apply px-5 sm:px-16 lg:px-36;
   }

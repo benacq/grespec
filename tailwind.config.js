@@ -13,13 +13,15 @@ module.exports = {
 
     minHeight: (theme) => ({
       ...theme('spacing'),
-      'custom-min': '100vh'
+      'custom-min': '100vh',
+      'px-350': '350px'
     }),
 
     minWidth: (theme) => ({
       ...theme('spacing'),
       'custom-min': '100vw',
       'custom-small': '150px'
+
     }),
 
     screens: {
@@ -32,7 +34,14 @@ module.exports = {
 
       colors: {
         "custom-transparent": "rgba(0, 0, 0, 0.5)",
+        'custom-gray-light': '#F8F4F9',
+        'custom-gray-light-secondary': '#F2EFF2',
       },
+
+      height: {
+        'px-150': '150px'
+      },
+
 
       fontSize: {
         'custom-xxlg': '60px',
