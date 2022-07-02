@@ -24,6 +24,10 @@
     @apply text-xl sm:text-left md:text-2xl lg:text-custom-lg font-dm-serif-display;
   }
 
+  h4{
+    @apply text-custom-xxsm lg:text-custom-xsm font-dm-serif-display;
+  }
+
   section.responsive {
     @apply px-5 sm:px-16 lg:px-36;
   }

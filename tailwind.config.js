@@ -14,7 +14,8 @@ module.exports = {
     minHeight: (theme) => ({
       ...theme('spacing'),
       'custom-min': '100vh',
-      'px-350': '350px'
+      'px-350': '350px',
+      'px-200': '200px',
     }),
 
     minWidth: (theme) => ({
@@ -53,8 +54,8 @@ module.exports = {
         'custom-md-sm': '20px',
         'custom-sm': '18px',
 
-        'custom-xsm': '20px',
-        'custom-xxsm': '16px',
+        'custom-xsm': '16px',
+        'custom-xxsm': '14px',
         'custom-xxxsm': '10px'
       },
 
