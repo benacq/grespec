@@ -8,7 +8,7 @@ function Hero({ cycleOpen }) {
     >
       <div className="absolute w-full h-full bg-custom-transparent z-10">
         <section className="responsive">
-          <div className="mt-36 sm:mt-28 md:mt-40">
+          <div className="mt-44 sm:mt-28 md:mt-40">
 
             <h1 className="leading-hero-spaced relative text-white text-custom-lg xsm:text-custom-xlg sm:text-custom-xxlg-sm md:text-custom-xxlg-md lg:text-custom-xxlg capitalize">
               we offer professional advice, <br />

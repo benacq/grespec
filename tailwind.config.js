@@ -16,6 +16,7 @@ module.exports = {
       'custom-min': '100vh',
       'px-350': '350px',
       'px-200': '200px',
+      'px-400': '400px',
     }),
 
     minWidth: (theme) => ({

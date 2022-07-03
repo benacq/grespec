@@ -5,8 +5,8 @@ function About() {
     <section className="responsive py-10">
       <h2>Our Story</h2>
 
-      <section className="mt-10 flex justify-between gap-20">
-        <div className="w-1/2 flex flex-col gap-2">
+      <section className="mt-5 lg:flex justify-between gap-20">
+        <div className="lg:w-1/2 flex flex-col gap-2">
           <p>
             Over the years, the response to capacity development associated with
             its sustainability has been a major concern on the minds of the
@@ -27,7 +27,7 @@ function About() {
           </p>
         </div>
 
-        <div className="w-1/2 flex flex-col gap-2">
+        <div className="lg:w-1/2 flex flex-col gap-2">
           <p>
             Our vision is to develop a society in which businesses are empowered
             to achieve their full potential and contribute to the development of
@@ -49,12 +49,12 @@ function About() {
 
       <div className="flex-grow border-t my-10 border-gray-200" />
 
-      <section className="mt-10 flex justify-between gap-20">
-        <div className="w-1/2">
-          <div className="bg-[url('/img-1.png')] bg-contain bg-center bg-no-repeat h-60" />
+      <section className="mt-10 flex flex-col md:flex-row justify-between gap-20 min-h-px-400">
+        <div className="md:w-1/2">
+          <div className="bg-[url('/img-1.png')] bg-contain bg-center bg-no-repeat h-60 md:h-full" />
         </div>
 
-        <div className="w-1/2 flex flex-col gap-2">
+        <div className="md:w-1/2 flex flex-col gap-2">
           <div>
             <h3 className="mb-5">Vision</h3>
             <p>
@@ -84,22 +84,34 @@ function About() {
       <section className="mt-8 mb-10">
         <h3 className="mb-5">Our Values</h3>
 
-        <div className="grid-cols-1 grid sm:grid-cols-2 lg:grid-cols-4 justify-between gap-x-10">
+        <div className="grid-cols-1 grid sm:grid-cols-2 lg:grid-cols-4 justify-between gap-x-10 gap-y-10">
           <div>
-            <div className="bg-[url('/shield.png')] bg-light-cream rounded-full h-36 w-36 m-auto shadow-md bg-center bg-no-repeat" />
+            <div
+              className="bg-[url('/shield.png')] bg-light-cream rounded-full h-60 w-60
+            md:h-36 md:w-36 m-auto shadow-md bg-center bg-no-repeat"
+            />
             <p className="text-center mt-5">Quality Delivery</p>
           </div>
 
           <div>
-            <div className="bg-[url('/value.png')] bg-light-cream h-36 w-36 m-auto shadow-md bg-cover bg-no-repeat" />
+            <div
+              className="bg-[url('/value.png')] bg-light-cream h-60 w-60
+            md:h-36 md:w-36 m-auto shadow-md bg-cover bg-no-repeat"
+            />
             <p className="text-center mt-5">Customer Service</p>
           </div>
           <div>
-            <div className="bg-[url('/excellence.png')] bg-light-cream h-36 w-36 m-auto shadow-md bg-cover bg-no-repeat" />
+            <div
+              className="bg-[url('/excellence.png')] bg-light-cream h-60 w-60
+            md:h-36 md:w-36 m-auto shadow-md bg-cover bg-no-repeat"
+            />
             <p className="text-center mt-5">Excellence</p>
           </div>
           <div>
-            <div className="bg-[url('/power.png')] bg-light-cream h-36 w-36 m-auto shadow-md bg-cover bg-no-repeat" />
+            <div
+              className="bg-[url('/power.png')] bg-light-cream h-60 w-60
+            md:h-36 md:w-36 m-auto shadow-md bg-cover bg-no-repeat"
+            />
             <p className="text-center mt-5">Passion</p>
           </div>
         </div>
