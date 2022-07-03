@@ -1,5 +1,6 @@
 import About from "../components/about/about";
 import AdvisoryBoard from "../components/advisory-board/advisory-board";
+import Footer from "../components/footer/footer";
 import Hero from "../components/hero/hero";
 import Nav from "../components/nav/nav";
 import OurServices from "../components/our-service/our-services";
@@ -18,6 +19,7 @@ export default function Home() {
       <OurTestimonials/>
       <OurTeam/>
       <AdvisoryBoard/>
+      <Footer/>
     </>
   );
 }

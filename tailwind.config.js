@@ -37,6 +37,8 @@ module.exports = {
         "custom-transparent": "rgba(0, 0, 0, 0.5)",
         'custom-gray-light': '#F8F4F9',
         'custom-gray-light-secondary': '#F2EFF2',
+        'custom-violet':'#660F68',
+        'light-cream': '#F4FBF2'
       },
 
       height: {

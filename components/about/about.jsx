@@ -47,7 +47,7 @@ function About() {
         </div>
       </section>
 
-      <div className="flex-grow border-t my-10 border-gray-200"/>
+      <div className="flex-grow border-t my-10 border-gray-200" />
 
       <section className="mt-10 flex justify-between gap-20">
         <div className="w-1/2">
@@ -81,14 +81,27 @@ function About() {
         </div>
       </section>
 
-      <section className="mt-8">
+      <section className="mt-8 mb-10">
         <h3 className="mb-5">Our Values</h3>
 
         <div className="grid-cols-1 grid sm:grid-cols-2 lg:grid-cols-4 justify-between gap-x-10">
-          <div className="bg-red-200">1</div>
-          <div>2</div>
-          <div>3</div>
-          <div>4</div>
+          <div>
+            <div className="bg-[url('/shield.png')] bg-light-cream rounded-full h-36 w-36 m-auto shadow-md bg-center bg-no-repeat" />
+            <p className="text-center mt-5">Quality Delivery</p>
+          </div>
+
+          <div>
+            <div className="bg-[url('/value.png')] bg-light-cream h-36 w-36 m-auto shadow-md bg-cover bg-no-repeat" />
+            <p className="text-center mt-5">Customer Service</p>
+          </div>
+          <div>
+            <div className="bg-[url('/excellence.png')] bg-light-cream h-36 w-36 m-auto shadow-md bg-cover bg-no-repeat" />
+            <p className="text-center mt-5">Excellence</p>
+          </div>
+          <div>
+            <div className="bg-[url('/power.png')] bg-light-cream h-36 w-36 m-auto shadow-md bg-cover bg-no-repeat" />
+            <p className="text-center mt-5">Passion</p>
+          </div>
         </div>
       </section>
     </section>
