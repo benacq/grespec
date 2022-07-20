@@ -7,7 +7,7 @@ function OurTeam() {
       <h3>Our Team</h3>
 
       <OurTeamFrame
-        backgroundImage={"bg-[url('/agribusiness.png')]"}
+        backgroundImage={"bg-[url('/adv-board-5.jpg')]"}
         name="Ebenezer Boahene Annoh"
         title="Operations Manager/CEO"
         description="He has experience in preparing business contracts and research in new technologies and alternative methods to maximize efficiency He is a graduate from KNUST-Kumasi (BSc. Agriculture), holds a Postgraduate diploma in International Financial Management, UK and a Master of Arts in Ministry"
@@ -17,7 +17,7 @@ function OurTeam() {
       <div className="mt-20" />
 
       <OurTeamFrame
-        backgroundImage={"bg-[url('/agribusiness.png')]"}
+        backgroundImage={"bg-[url('/adv-board-2.jpg')]"}
         name="Anita Yeboaa Amponsah "
         title="Sales and Marketing Manager"
         description="She joined Greepec Consult in 2017 and is responsible for product development, sale and staying in touch with our clients while coordinating with the organizations to know feedback of products sold."

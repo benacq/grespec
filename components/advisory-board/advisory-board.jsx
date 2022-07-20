@@ -11,7 +11,7 @@ function AdvisoryBoard() {
         <div className="md:w-1/3">
           <div
             className={
-              "bg-[url('/agribusiness.png')] h-60 md:h-3/4 w-full bg-cover bg-center bg-no-repeat"
+              "bg-[url('/adv-board-3.jpg')] h-60 md:h-3/4 w-full bg-cover bg-no-repeat"
             }
           />
           <p className="text-center mt-5">Dr. Charles Emmanuel Annoh</p>
@@ -21,7 +21,7 @@ function AdvisoryBoard() {
         <div className="md:w-1/3">
           <div
             className={
-              "bg-[url('/agribusiness.png')] h-60 md:h-3/4 w-full bg-cover bg-center bg-no-repeat"
+              "bg-[url('/adv-board-4.jpg')] h-60 md:h-3/4 w-full bg-cover bg-center bg-no-repeat"
             }
           />
           <p className="text-center mt-5">Mr. Ebenezer Boahene Annoh</p>
@@ -34,7 +34,7 @@ function AdvisoryBoard() {
       <div className="mt-10 flex flex-col md:flex-row justify-between gap-10 min-h-px-350">
         <div className="md:w-1/3">
           <div
-            className={`bg-[url('/agribusiness.png')] h-60 md:h-3/4 w-full bg-cover bg-center bg-no-repeat`}
+            className={`bg-[url('/adv-board-7.jpg')] h-60 md:h-3/4 w-full bg-cover bg-center bg-no-repeat`}
           />
           <p className="text-center mt-5">Mrs Emma Simpey</p>
           <p className="text-center">Human Resource Manager</p>
@@ -43,7 +43,7 @@ function AdvisoryBoard() {
         <div className="md:w-1/3">
           <div
             className={
-              "bg-[url('/agribusiness.png')] h-60 md:h-3/4 w-full bg-cover bg-center bg-no-repeat"
+              "bg-[url('/adv-board-6.jpg')] h-60 md:h-3/4 w-full bg-cover bg-center bg-no-repeat"
             }
           />
           <p className="text-center mt-5">Mr. Emmanuel Charles Annoh Jnr.</p>
@@ -53,7 +53,7 @@ function AdvisoryBoard() {
         <div className="md:w-1/3">
           <div
             className={
-              "bg-[url('/agribusiness.png')] h-60 md:h-3/4 w-full bg-cover bg-center bg-no-repeat"
+              "bg-[url('/adv-board-1.jpg')] h-60 md:h-3/4 w-full bg-cover bg-center bg-no-repeat"
             }
           />
           <p className="text-center mt-5">Mrs Pearl Tetteh-Larbi</p>
