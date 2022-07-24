@@ -1,11 +1,46 @@
 import React from "react";
+import ReactReadMoreReadLess from "react-read-more-read-less";
+import ReadMoreMaster from "../utilities/read-more";
 
 function About() {
   return (
     <section className="responsive py-10">
       <h2>Our Story</h2>
 
-      <section className="mt-5 lg:flex justify-between gap-20">
+      <section className="lg:hidden">
+        <ReactReadMoreReadLess
+          charLimit={438}
+          readMoreClassName="text-blue-500"
+          readLessClassName="text-blue-500"
+          readMoreText={"Read more"}
+          readLessText={"Read less"}
+        >
+          Over the years, the response to capacity development associated with
+          its sustainability has been a major concern on the minds of the ANNOH
+          FAMILY. Our passion to solve this major issue, and enhance community
+          growth led to the formation of GREEPEC (an acronym of names of family
+          members). GREEPEC CONSULT was registered in 2013 with a policy
+          direction; to be a self-sustaining private business brand within the
+          next ten years in Ghana. In our business journey, we have blossomed
+          from an idea stage into several business innovation and
+          solutions.Despite our unfolding setbacks and challenges, the Lord has
+          been good and faithful. Our mission to address the immediate and
+          long-term development needs of people through consultancy services and
+          training has yielded good results. Our vision is to develop a society
+          in which businesses are empowered to achieve their full potential and
+          contribute to the development of its community and country. Our
+          achievement and successes over the couple of years have birthed these
+          fruits namely: GREEPEC CONSULT, GREEPEC CLOTHING, GREEPEC FARMS, and
+          GREEPEC IT SOLUTIONS as well as the FINE CHOICE SUPERMARKET. Our
+          cordial relationship with clients has opened the gateway to various
+          business opportunities across the global fraternity in India,
+          Malaysia, Germany, Bulgaria, Kenya and China amongst others. By 2023,
+          we hope to register all of our business brands and patent our logos
+          while growing them into a medium- large scale companies.
+        </ReactReadMoreReadLess>
+      </section>
+
+      <section className="mt-5 hidden lg:flex justify-between gap-20">
         <div className="lg:w-1/2 flex flex-col gap-2">
           <p>
             Over the years, the response to capacity development associated with
@@ -70,12 +105,7 @@ function About() {
           <div>
             <h3 className="mb-5 mt-8">Mission</h3>
             <p>
-              Our cordial relationship with clients has opened the gateway to
-              various business opportunities across the global fraternity in
-              India, Malaysia, Germany, Bulgaria, Kenya and China amongst
-              others. By 2023, we hope to register all of our business brands
-              and patent our logos while growing them into a medium- large scale
-              companies.
+              Our mission is to address the immediate and long-term development needs of people through consultancy services and training
             </p>
           </div>
         </div>

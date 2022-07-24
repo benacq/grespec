@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
 
-function Nav({ cycleOpen, bgColor }) {
+function Nav({ setSidebar, bgColor }) {
   const [scrollNav, setScrollNav] = React.useState(false);
 
   const router = useRouter();
@@ -38,7 +38,7 @@ function Nav({ cycleOpen, bgColor }) {
       <div>
         <IoMenuOutline
           size={40}
-          onClick={cycleOpen}
+          onClick={setSidebar}
           className="text-white block cursor-pointer md:hidden"
         />
       </div>
