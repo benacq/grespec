@@ -72,6 +72,10 @@ module.exports = {
         'hero-spaced': '110%'
       },
 
+      padding:{
+        "px-7": "7px"
+      }
+
     },
   },
   plugins: [],

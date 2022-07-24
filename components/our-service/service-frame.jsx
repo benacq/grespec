@@ -1,4 +1,5 @@
 import React from "react";
+import ReactReadMoreReadLess from "react-read-more-read-less";
 
 function ServiceFrame(props) {
   return (
@@ -15,7 +16,15 @@ function ServiceFrame(props) {
 
         <div className="md:w-1/2 flex flex-col justify-center">
           <h3 className="mb-5 hidden md:block">{props.title}</h3>
-          <p>{props.content}</p>
+          <ReactReadMoreReadLess
+            charLimit={200}
+            readMoreClassName="button"
+            readLessClassName="button"
+            readMoreText={"Read more"}
+            readLessText={"Read less"}
+          >
+            {props.content}
+          </ReactReadMoreReadLess>
         </div>
       </section>
     </div>

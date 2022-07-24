@@ -26,13 +26,11 @@ function PartnersAndSubsidiaries() {
 
       <div className="mt-10 flex flex-col md:flex-row justify-center gap-10">
         <div className="md:w-1/3">
-          <Card />
-          PYMA Group Company Limited
+          <Card name={"PYMA Group Company Limited"} />
         </div>
 
         <div className="md:w-1/3">
-          <Card />
-          China Shandong International Ghana Limited
+          <Card name="China Shandong International Ghana Limited" />
         </div>
       </div>
 
@@ -52,13 +50,11 @@ function PartnersAndSubsidiaries() {
 
       <div className="mt-10 flex flex-col md:flex-row justify-center gap-10">
         <div className="md:w-1/3">
-          <Card />
-          Dabanka Farms
+          <Card name={"Dabanka Farms"} />
         </div>
 
         <div className="md:w-1/3">
-          <Card />
-          the French Embassy
+          <Card name={"The French Embassy"} />
         </div>
       </div>
 

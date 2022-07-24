@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base{
+@layer base {
   body {
     @apply box-border text-black font-montserrat;
   }
@@ -16,19 +16,26 @@
     @apply text-2xl sm:text-left md:text-3xl lg:text-5xl font-dm-serif-display;
   }
 
-  h2{
+  h2 {
     @apply text-xl sm:text-left md:text-2xl lg:text-custom-xlg font-dm-serif-display;
   }
 
-  h3{
+  h3 {
     @apply text-xl sm:text-left md:text-2xl lg:text-custom-lg font-dm-serif-display;
   }
 
-  h4{
+  h4 {
     @apply text-custom-xxsm lg:text-custom-xsm font-dm-serif-display;
   }
 
+
   section.responsive {
     @apply px-5 sm:px-16 lg:px-36;
+  }
+}
+
+@layer components {
+  .button {
+    @apply w-32 h-10 border border-custom-violet text-custom-violet rounded-full block text-center mt-5 pt-px-7;
   }
 }
