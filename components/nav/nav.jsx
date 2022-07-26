@@ -1,5 +1,5 @@
 import React from "react";
-import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
+import { Link as ScrollLink } from "react-scroll";
 import { IoMenuOutline } from "react-icons/io5";
 import Image from "next/image";
 import Link from "next/link";
@@ -48,13 +48,13 @@ function Nav({ setSidebar, bgColor }) {
           {router.route === "/" ? (
             <>
               <ScrollLink className="cursor-pointer" to="home" spy smooth>
-                HOME
+                Home
               </ScrollLink>
             </>
           ) : (
             <>
               <Link href="/">
-                <a>HOME</a>
+                <a>Home</a>
               </Link>
             </>
           )}
@@ -63,14 +63,14 @@ function Nav({ setSidebar, bgColor }) {
         <li className="font-semibold">
           {router.route === "/" ? (
             <>
-              <ScrollLink className="cursor-pointer" to="about" spy smooth>
-                ABOUT
+              <ScrollLink className="cursor-pointer" offset={-100} to="about" spy smooth>
+                About Us
               </ScrollLink>
             </>
           ) : (
             <>
               <Link href="/#about">
-                <a>ABOUT</a>
+                <a>About Us</a>
               </Link>
             </>
           )}
@@ -79,30 +79,47 @@ function Nav({ setSidebar, bgColor }) {
         <li className="relative cursor-pointer font-semibold">
           {router.route === "/" ? (
             <>
-              <ScrollLink className="cursor-pointer" to="services" spy smooth>
-                SERVICES
+              <ScrollLink className="cursor-pointer" to="services" offset={-70} spy smooth>
+                Services
               </ScrollLink>
             </>
           ) : (
             <>
               <Link href="/#services">
-                <a>SERVICES</a>
+                <a>Services</a>
               </Link>
             </>
           )}
         </li>
 
+
+        {/* <li className="relative cursor-pointer font-semibold">
+          {router.route === "/" ? (
+            <>
+              <ScrollLink className="cursor-pointer" to="our-team" offset={-70} spy smooth>
+                Our team
+              </ScrollLink>
+            </>
+          ) : (
+            <>
+              <Link href="/#our-team">
+                <a>Our team</a>
+              </Link>
+            </>
+          )}
+        </li> */}
+
         <li className="font-semibold">
           {router.route === "/" ? (
             <>
               <ScrollLink className="cursor-pointer" to="footer" spy smooth>
-                CONTACT
+                Contact Us
               </ScrollLink>
             </>
           ) : (
             <>
               <Link href="/#contact">
-                <a>CONTACT</a>
+                <a>Contact Us</a>
               </Link>
             </>
           )}

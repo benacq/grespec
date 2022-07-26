@@ -1,10 +1,9 @@
 import React from "react";
 import ReactReadMoreReadLess from "react-read-more-read-less";
-import ReadMoreMaster from "../utilities/read-more";
 
 function About() {
   return (
-    <section className="responsive py-10">
+    <section className="responsive py-10" id="about">
       <h2>Our Story</h2>
 
       <section className="lg:hidden">
@@ -90,17 +89,7 @@ function About() {
         </div>
 
         <div className="md:w-1/2 flex flex-col gap-2">
-          <div>
-            <h3 className="mb-5">Vision</h3>
-            <p>
-              Our vision is to develop a society in which businesses are
-              empowered to achieve their full potential and contribute to the
-              development of its community and country. Our achievement and
-              successes over the couple of years have birthed these fruits
-              namely: GREEPEC CONSULT, GREEPEC CLOTHING, GREEPEC FARMS, and
-              GREEPEC IT SOLUTIONS as well as the FINE CHOICE SUPERMARKET.
-            </p>
-          </div>
+      
 
           <div>
             <h3 className="mb-5 mt-8">Mission</h3>
@@ -117,7 +106,7 @@ function About() {
         <div className="grid-cols-1 grid sm:grid-cols-2 lg:grid-cols-4 justify-between gap-x-10 gap-y-10">
           <div>
             <div
-              className="bg-[url('/shield.png')] bg-light-cream rounded-full h-60 w-60
+              className="bg-[url('/shield.png')] bg-light-cream h-60 w-60
             md:h-36 md:w-36 m-auto shadow-md bg-center bg-no-repeat"
             />
             <p className="text-center mt-5">Quality Delivery</p>

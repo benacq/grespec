@@ -3,7 +3,7 @@ import ServiceFrame from "./service-frame";
 
 function OurServices() {
   return (
-    <section className="responsive py-10 bg-custom-gray-light">
+    <section className="responsive py-10 bg-custom-gray-light" id={"services"}>
       <h3 className="mb-5">Our Services</h3>
 
       <ServiceFrame

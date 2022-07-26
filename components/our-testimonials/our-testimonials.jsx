@@ -48,6 +48,29 @@ function OurTestimonials() {
             Excellence Awards
           </h4>
         </div>
+
+        <div className="items-center flex gap-5 md:gap-0">
+          <div
+            className={
+              "bg-[url('/award.png')] self-center h-14 w-1/6 bg-contain bg-no-repeat"
+            }
+          />
+          <h4 className="w-10/12">
+            Best Agribusiness & Landscape Development Consultancy - Ghana, MEA Business Awards
+          </h4>
+        </div>
+
+
+        <div className="items-center flex gap-5 md:gap-0">
+          <div
+            className={
+              "bg-[url('/award.png')] self-center h-14 w-1/6 bg-contain bg-no-repeat"
+            }
+          />
+          <h4 className="w-10/12">
+            Best Landscape Development Consulting Firm - Ghana
+          </h4>
+        </div>
       </div>
     </section>
   );

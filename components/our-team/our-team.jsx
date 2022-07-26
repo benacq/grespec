@@ -3,7 +3,7 @@ import OurTeamFrame from "./our-team-frame";
 
 function OurTeam() {
   return (
-    <section className="responsive py-10">
+    <section className="responsive py-10" id={"our-team"}>
       <h3>Our Team</h3>
 
       <OurTeamFrame

@@ -4,6 +4,7 @@ import { IoCloseOutline as Close } from "react-icons/io5";
 import React, { Dispatch, SetStateAction } from "react";
 import Link from "next/link";
 import { useRouter } from "next/router";
+import { Link as ScrollLink } from "react-scroll";
 
 const SideBar = (props) => {
   const router = useRouter();
@@ -35,41 +36,94 @@ const SideBar = (props) => {
             <div>
               <ul className="flex flex-col gap-10">
                 <li>
-                  <Link href="/">
-                    <a
-                      className={`text-oval-px-24 font-bold ${
-                        router.pathname !== "/" && "opacity-50"
-                      }`}
-                      onClick={() => props.setSidebar((sidebar) => !sidebar)}
-                    >
-                      Personal
-                    </a>
-                  </Link>
+                  {router.route === "/" ? (
+                    <>
+                      <ScrollLink
+                        className="cursor-pointer"
+                        to="home"
+                        spy
+                        smooth
+                        onClick={() => props.setSidebar(false)}
+                      >
+                        Home
+                      </ScrollLink>
+                    </>
+                  ) : (
+                    <>
+                      <Link href="/">
+                        <a>Home</a>
+                      </Link>
+                    </>
+                  )}
                 </li>
 
                 <li>
-                  <Link href="/business">
-                    <a
-                      className={`text-oval-px-24 font-bold ${
-                        router.pathname !== "/business" && "opacity-50"
-                      }`}
-                      onClick={() => props.setSidebar((sidebar) => !sidebar)}
-                    >
-                      Business
-                    </a>
-                  </Link>
+                  {router.route === "/" ? (
+                    <>
+                      <ScrollLink
+                        className="cursor-pointer"
+                        to="about"
+                        spy
+                        smooth
+                        offset={-50}
+                        onClick={() => props.setSidebar(false)}
+                      >
+                        About Us
+                      </ScrollLink>
+                    </>
+                  ) : (
+                    <>
+                      <Link href="/#about">
+                        <a>About Us</a>
+                      </Link>
+                    </>
+                  )}
                 </li>
 
                 <li>
-                  <button
-                    onClick={() => {
-                      props.setSidebar((sidebar) => !sidebar);
-                      props.setModal(true);
-                    }}
-                    className="text-oval-px-24 font-bold"
-                  >
-                    Join the waitlist
-                  </button>
+                  {router.route === "/" ? (
+                    <>
+                      <ScrollLink
+                        className="cursor-pointer"
+                        to="services"
+                        spy
+                        smooth
+                        offset={-50}
+                        onClick={() => props.setSidebar(false)}
+                      >
+                        Services
+                      </ScrollLink>
+                    </>
+                  ) : (
+                    <>
+                      <Link href="/#services">
+                        <a>Services</a>
+                      </Link>
+                    </>
+                  )}
+                </li>
+
+                <li>
+                  {router.route === "/" ? (
+                    <>
+                      <ScrollLink
+                        className="cursor-pointer"
+                        to="contact"
+                        spy
+                        smooth
+                        offset={-50}
+                        onClick={() => props.setSidebar(false)}
+                      >
+                        Contact Us
+                      </ScrollLink>
+                    </>
+                  ) : (
+                    <>
+                      <Link href="/#contact">
+                        <a>Contact Us</a>
+                      </Link>
+                    </>
+                  )}
                 </li>
               </ul>
             </div>
