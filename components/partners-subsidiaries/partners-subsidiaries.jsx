@@ -50,11 +50,17 @@ function PartnersAndSubsidiaries() {
 
       <div className="mt-10 flex flex-col md:flex-row justify-center gap-10">
         <div className="md:w-1/3">
-          <Card name={"Dabanka Farms"} />
+          <Card
+            link="social.yecommunity.com/page/ye-community"
+            name={"Ye! Community"}
+          />
         </div>
 
         <div className="md:w-1/3">
-          <Card name={"The French Embassy"} />
+          <Card
+            link="www.genglobal.org"
+            name={"Global Entrepreneurship Network"}
+          />
         </div>
       </div>
 

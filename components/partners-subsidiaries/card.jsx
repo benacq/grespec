@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 function Card(props) {
@@ -12,7 +13,15 @@ function Card(props) {
       ) : (
         <>
           <div className="text-center w-full block">
-            {props.name}
+            {props.link ? (
+              <>
+                <Link href={`https://${props.link}`}  passHref={true}>
+                  <a target="_blank">{props.name}</a>
+                </Link>
+              </>
+            ) : (
+              <>{props.name}</>
+            )}
           </div>
         </>
       )}
