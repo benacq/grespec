@@ -26,11 +26,11 @@ function PartnersAndSubsidiaries() {
 
       <div className="mt-10 flex flex-col md:flex-row justify-center gap-10">
         <div className="md:w-1/3">
-          <Card name={"PYMA Group Company Limited"} />
+          <Card backgroundImage={"bg-[url('/benita-ent.jpg')]"} />
         </div>
 
         <div className="md:w-1/3">
-          <Card name="China Shandong International Ghana Limited" />
+          <Card backgroundImage={"bg-[url('/keep-gh-beautiful.jpg')]"} />
         </div>
       </div>
 

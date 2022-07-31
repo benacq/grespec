@@ -15,7 +15,10 @@ function Footer() {
       <div className="flex-grow border-t border-custom-violet" />
 
       <section className="responsive py-10 md:py-20" id="footer">
-        <footer id="contact" className="flex flex-col md:flex-row gap-10 md:gap-20">
+        <footer
+          id="contact"
+          className="flex flex-col md:flex-row gap-10 md:gap-20"
+        >
           <div>
             <ul className="flex flex-col gap-3">
               <li className="font-semibold">Contact Us</li>
@@ -27,39 +30,32 @@ function Footer() {
               </li>
               <li
                 className=" cursor-pointer hover:font-semibold"
-                onClick={() => goTo("wa.me/+233209126193")}
+                onClick={() => goTo("wa.me/+233266742734")}
               >
-                +233 (0)20 299 8006
-              </li>
-
-              <li
-                className=" cursor-pointer hover:font-semibold"
-                onClick={() => goTo("wa.me/+233209126193")}
-              >
-                +233 (0)24 945 1884
+                +233 (0)26 674 2734
               </li>
             </ul>
 
             <ul className="flex gap-4 my-3">
               <li>
                 <div
-                  onClick={() =>
-                    goTo("www.facebook.com/Starzec-Energy-103972402344165")
-                  }
+                  onClick={() => goTo("www.facebook.com/eannoh")}
                   className="bg-[url('/facebook.png')] bg-no-repeat bg-contain h-5 w-5 cursor-pointer"
                 />
               </li>
-              <li>
+
+              {/* <li>
                 <div
                   onClick={() =>
                     goTo("instagram.com/starzec_energy?igshid=YmMyMTA2M2Y=")
                   }
                   className="bg-[url('/instagram.png')] bg-no-repeat bg-contain h-5 w-5 cursor-pointer"
                 />
-              </li>
+              </li> */}
+
               <li>
                 <div
-                  onClick={() => goTo("twitter.com/starzec_energy")}
+                  onClick={() => goTo("twitter.com/ebenezerannoh")}
                   className="bg-[url('/twitter.png')] bg-no-repeat bg-contain h-5 w-5 cursor-pointer"
                 />
               </li>
