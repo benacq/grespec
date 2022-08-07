@@ -9,10 +9,14 @@ function Hero({ cycleOpen }) {
       <div className="absolute w-full h-full bg-custom-transparent z-10">
         <section className="responsive">
           <div className="mt-44 sm:mt-28 md:mt-40">
-
             <h1 className="leading-hero-spaced relative text-white text-custom-lg xsm:text-custom-xlg sm:text-custom-xxlg-sm md:text-custom-xxlg-md lg:text-custom-xxlg capitalize">
-              we offer professional advice, <br />
-              guidance, and solutions to <br /> your businesses
+              we offer{" "}
+              <span className="text-custom-orange">
+                {" "}
+                professional advice, <br />
+                guidance, and solutions
+              </span>{" "}
+              to <br /> your businesses
             </h1>
 
             <h5 className="text-custom-xsm md:text-custom-sm sm:w-3/4 md:w-2/3 lg:w-1/2 mt-5 text-white">

@@ -15,7 +15,7 @@ function Card(props) {
           <div className="text-center w-full block">
             {props.link ? (
               <>
-                <Link href={`https://${props.link}`}  passHref={true}>
+                <Link href={`https://${props.link}`} passHref={true}>
                   <a target="_blank">{props.name}</a>
                 </Link>
               </>

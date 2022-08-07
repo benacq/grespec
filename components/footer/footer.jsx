@@ -11,8 +11,8 @@ function Footer() {
   };
 
   return (
-    <div>
-      <div className="flex-grow border-t border-custom-violet" />
+    <div className="bg-custom-purple text-white">
+      <div className="flex-grow" />
 
       <section className="responsive py-10 md:py-20" id="footer">
         <footer
@@ -44,14 +44,14 @@ function Footer() {
                 />
               </li>
 
-              {/* <li>
+              <li>
                 <div
                   onClick={() =>
                     goTo("instagram.com/starzec_energy?igshid=YmMyMTA2M2Y=")
                   }
-                  className="bg-[url('/instagram.png')] bg-no-repeat bg-contain h-5 w-5 cursor-pointer"
+                  className="bg-[url('/youtube.png')] bg-no-repeat bg-contain h-5 w-5 cursor-pointer"
                 />
-              </li> */}
+              </li>
 
               <li>
                 <div

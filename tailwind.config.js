@@ -39,11 +39,14 @@ module.exports = {
         'custom-gray-light': '#F8F4F9',
         'custom-gray-light-secondary': '#F2EFF2',
         'custom-violet':'#660F68',
-        'light-cream': '#F4FBF2'
+        'custom-purple': '#460A48',
+        'light-cream': '#F4FBF2',
+        'custom-orange': '#fa6838'
       },
 
       height: {
         'px-150': '150px',
+        'px-250': '250px',
         'px-170': '170px'
       },
 

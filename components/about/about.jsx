@@ -81,6 +81,7 @@ function About() {
         </div>
       </section>
 
+      <div className=" min-h-px-400 w-full relative bg-[url('/grespec-plant.jpg')] bg-contain md:bg-cover bg-no-repeat mt-10" />
       <div className="flex-grow border-t my-10 border-gray-200" />
 
       <section className="mt-10 flex flex-col md:flex-row justify-between gap-20 min-h-px-400">
@@ -89,12 +90,20 @@ function About() {
         </div>
 
         <div className="md:w-1/2 flex flex-col gap-2">
-      
+          <div>
+            <h3 className="mb-5">Vision</h3>
+            <p>
+              Our vision is to develop a society in which businesses are
+              empowered to achieve their full potential and contribute to the
+              development of its community and country.
+            </p>
+          </div>
 
           <div>
             <h3 className="mb-5 mt-8">Mission</h3>
             <p>
-              Our mission is to address the immediate and long-term development needs of people through consultancy services and training
+              Our mission is to address the immediate and long-term development
+              needs of people through consultancy services and training
             </p>
           </div>
         </div>
