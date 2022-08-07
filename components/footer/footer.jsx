@@ -47,7 +47,7 @@ function Footer() {
               <li>
                 <div
                   onClick={() =>
-                    goTo("instagram.com/starzec_energy?igshid=YmMyMTA2M2Y=")
+                    goTo("youtube.com/channel/UC8_4lZDLgepk_OFYQ7-BBmw")
                   }
                   className="bg-[url('/youtube.png')] bg-no-repeat bg-contain h-5 w-5 cursor-pointer"
                 />
