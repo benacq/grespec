@@ -63,7 +63,7 @@ function Footer() {
               <li>
                 <div
                   onClick={() =>
-                    goTo("https://www.linkedin.com/in/ebenezer-annoh-6bb95826")
+                    goTo("www.linkedin.com/in/ebenezer-annoh-6bb95826")
                   }
                   className="bg-[url('/linkedin.png')] bg-no-repeat bg-contain h-5 w-5 cursor-pointer"
                 />
