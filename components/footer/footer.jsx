@@ -32,7 +32,7 @@ function Footer() {
                 className=" cursor-pointer hover:font-semibold"
                 onClick={() => goTo("wa.me/+233266742734")}
               >
-                +233 (0)26 674 2734
+                +233 (0) 20 299 8006
               </li>
             </ul>
 
@@ -63,7 +63,7 @@ function Footer() {
               <li>
                 <div
                   onClick={() =>
-                    goTo("www.linkedin.com/company/starzec-energy")
+                    goTo("https://www.linkedin.com/in/ebenezer-annoh-6bb95826")
                   }
                   className="bg-[url('/linkedin.png')] bg-no-repeat bg-contain h-5 w-5 cursor-pointer"
                 />

@@ -16,11 +16,11 @@ function Hero({ cycleOpen }) {
                 professional advice, <br />
                 guidance, and solutions
               </span>{" "}
-              to <br /> your businesses
+              to <br /> your business!
             </h1>
 
             <h5 className="text-custom-xsm md:text-custom-sm sm:w-3/4 md:w-2/3 lg:w-1/2 mt-5 text-white">
-              We addresses the immediate and long-term development needs of
+              We address the immediate and long-term development needs of
               people by providing consultancy services and training in
               agribusiness amongst others.
             </h5>
